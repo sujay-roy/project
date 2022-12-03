@@ -339,8 +339,8 @@ font-family: 'Poppins', sans-serif;
  }
  .icon-img{
     position: absolute;
-    right: 40px;
-    top: 40px;
+    right: 20px;
+    top: 20px;
  }
  .icon-img img{
     width: 25px;
@@ -503,6 +503,45 @@ font-family: 'Poppins', sans-serif;
 
 /* media query */
 
+@media (max-width: 1400px) {
+    .design-image{
+        padding-right: 20px;
+     }
+     .design-image::after{
+        left: 20px;
+        right: 0;
+        top: 20px;
+        bottom: -20px;
+     }
+
+     /* hero css */
+
+     .hero-text h2{
+        font-size: 55px;
+     }
+     .section-headding h3{
+        font-size: 38px;
+     }
+
+     /* testimonial css */
+     .testimonial-text h3{
+        font-size: 20px;
+     }
+     .testimonial-text h3 span {
+        font-size: 14px;
+        color: #646464;
+     }
+}
+@media (max-width: 1200px){
+    .header-area .nav-item{
+        margin-left: 10px ;
+     }
+     .header-area .nav-item:last-child .nav-link{
+        padding: 5px 10px;
+     }
+}
+
+
 @media (max-width: 991px) {
     .design-image{
        padding-right: 20px;
@@ -514,3 +553,5 @@ font-family: 'Poppins', sans-serif;
        bottom: -20px;
     }
  }
+
+ 

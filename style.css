@@ -89,3 +89,31 @@ font-family: 'Poppins', sans-serif;
  .section-headding h3{
     font-size: 48px;
  }
+
+ /* header area css */
+ .header-area{
+    padding: 30px 0;
+ }
+ .header-area .nav-item{
+    margin-left: 30px;
+ }
+ .header-area .nav-item{
+    text-transform: uppercase;
+    color: #111111;
+    font-weight: 600;
+ }
+ .header-area .nav-link.active{
+    text-transform: uppercase;
+    color: #646464;
+ }
+ .header-area .nav-item:last-child{
+    margin-left: 45px;
+ }
+
+ .header-area .nav-item:last-child .nav-link{
+    background-color: #CAA892;
+    text-transform: capitalize;
+    color: #fff;
+    border-radius: 15px 0px;
+    padding: 10px 20px;
+ }

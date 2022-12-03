@@ -117,3 +117,27 @@ font-family: 'Poppins', sans-serif;
     border-radius: 15px 0px;
     padding: 10px 20px;
  }
+
+ /* hero area css */
+
+ .hero-area{
+    padding: 70px 0;
+ }
+ .hero-text h3{
+    font-size: 20px;
+    color: #646464;
+    text-transform: uppercase;
+ }
+ .hero-text h2{
+    font-size: 72px;
+    color: #212121;
+    text-transform: capitalize;
+ }
+ .hero-text a {
+    margin-top: 15px;
+ }
+
+ .hero-image img{
+    width: 100%;
+    border-radius: 140px 0;
+ }

@@ -500,3 +500,17 @@ font-family: 'Poppins', sans-serif;
  .design img{
  height: 100px;
 }
+
+/* media query */
+
+@media (max-width: 991px) {
+    .design-image{
+       padding-right: 20px;
+    }
+    .design-image::after{
+       left: 20px;
+       right: 0;
+       top: 20px;
+       bottom: -20px;
+    }
+ }

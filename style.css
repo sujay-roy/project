@@ -425,3 +425,78 @@ font-family: 'Poppins', sans-serif;
  .signup-area button:hover{
     background-color: #CAA892;
  }
+
+ /* footer css */
+ .footer-area {
+    background-color: #F8F8F8;
+    position: relative;
+ }
+ .footer-top {
+ padding-top: 90px;
+ padding-bottom: 70px;
+ }
+ .footer-about img {
+    margin-bottom: 18px;
+ }
+
+ .footer-link h3 {
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+ }
+ .footer-link ul{
+    margin: 0;
+    padding: 0;
+ }
+ .footer-link ul li {
+    list-style: none;
+ }
+
+ .footer-link ul li a {
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
+    color: #646464;
+ }
+
+
+ .footer-link address {
+    line-height: 2.2;
+ }
+
+ .social-link li {
+    display: inline-block;
+    margin-right: 10px;
+ }
+
+ .footer-link .social-link li a {
+    background-color: #D5D5D5;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    color: #fff;
+    transition: .3s;
+ }
+ .footer-link .social-link li a:hover{
+    background-color: #37806B;
+ }
+
+ .footer-bottom{
+    border-top: 1px solid #c4c4c4;
+ }
+
+ .footer-bootom-text a {
+    text-decoration: none;
+    color: #37806B;
+ }
+
+ .design{
+    position: absolute;
+    top: -50px;
+ }
+ .design img{
+ height: 100px;
+}

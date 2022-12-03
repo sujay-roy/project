@@ -370,3 +370,15 @@ font-family: 'Poppins', sans-serif;
  .testimonial-area .owl-next{
     margin-left: 20px;
  }
+
+ /* blog area css */
+ .blog-area{
+    padding: 100px 0;
+    background-color: #F8F8F8;
+ }
+ .blog-text{
+    margin-top: 40px;
+ }
+ .blog-area .section-headding{
+    margin-bottom: 70px;
+ }

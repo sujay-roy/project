@@ -201,6 +201,8 @@ font-family: 'Poppins', sans-serif;
     padding: 100px 0;
  }
 
+ /* sucess area */
+
  .success-area{
     padding:100px 0;
     position: relative ;
@@ -668,23 +670,24 @@ font-family: 'Poppins', sans-serif;
       text-align: center;
     }
 
-    .design-image-two{
-      padding-right: 20px;
+    .about-area .design-image-two{
+      padding-left: 20px;
    }
-   .design-image-two::after{
-      position: absolute;
-      content: "";
-      height: 100%;
-      width: 100%;
-      left: -20px;
+   .about-area .design-image-two::after{
+      left: 0px;
       top: -20px;
-      z-index: -1;
-      border-radius: 140px 0;
-      border: 2px solid #B0855B;
+      bottom: 20px;
   
      }
 
-
+     /* success-area css */
+     .success-area{
+      padding: 50px 0;
+      text-align: center;
+     }
+     .success-area .theme-button{
+      margin-bottom: 35px;
+     }
 
 
     /* work css */
@@ -698,8 +701,29 @@ font-family: 'Poppins', sans-serif;
     }
 
     .single-work-text{
-      width: 500px
-      ;
+      width: 500px;
+    }
+
+    /* blog-area css */
+    .blog-area{
+      padding: 70px 0;
+      text-align: center;
+    }
+
+    .blog-text.two{
+      margin: 35px 0;
+    }
+
+    /* signup area */
+
+    .signup-area{
+      padding: 70px 0;
+    }
+
+    /* footer area */
+    .footer-area{
+      padding: 20px 0;
+      text-align: center;
     }
  }
 

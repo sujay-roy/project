@@ -650,6 +650,7 @@ font-family: 'Poppins', sans-serif;
     /* service css */
     .service-area{
       padding: 70px 0;
+      margin-top: 70px;
    }
    /* about css */
    .about-area{
@@ -725,6 +726,10 @@ font-family: 'Poppins', sans-serif;
       padding: 20px 0;
       text-align: center;
     }
+ }
+
+ @media (max-width: 768px){
+   }
  }
 
  

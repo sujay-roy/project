@@ -75,7 +75,7 @@ font-family: 'Poppins', sans-serif;
     border-radius: 140px 0;
     border: 2px solid #B0855B;
 
- }
+   }
  .design-image-two img{
     border-radius: 140px 0;
  }
@@ -217,6 +217,8 @@ font-family: 'Poppins', sans-serif;
  .success-area .theme-button{
     margin-top: 35px;
  }
+
+ /* work css */
  .work-area{
     padding: 100px 0;
     background-color: #f8f8f8;
@@ -523,6 +525,50 @@ font-family: 'Poppins', sans-serif;
         font-size: 38px;
      }
 
+     /* work css */
+     .single-work-text::after{
+      position: absolute;
+      content: "";
+      height: 100px;
+      width: 35px;
+      border-top: 2px solid #e0e0e0;
+      border-right: 2px solid#e0e0e0;
+      z-index: -1;
+      right: -35px;
+      top: 100px;
+  
+   }
+   .single-work-two .single-work-text::before{
+      position: absolute;
+      content: "";
+      height: 100px;
+      width: 51px;
+      border-top: 2px solid #e0e0e0;
+      z-index: -1;
+      right: -51px;
+      top: 100px;
+  
+   }
+   .single-work-three .single-work-text::before{
+      position: absolute;
+      content: "";
+      height: 100px;
+      width: 35px;
+      border-top: 2px solid #e0e0e0;
+      border-left: 2px solid #e0e0e0;
+      z-index: -1;
+      left: -35px;
+      top: 100px;
+  
+   }
+   .single-work-text.special::after{
+      left: -50px;
+      top: 100px;
+      width: 50px;
+      border-right: none;
+   }
+
+
      /* testimonial css */
      .testimonial-text h3{
         font-size: 20px;
@@ -530,6 +576,10 @@ font-family: 'Poppins', sans-serif;
      .testimonial-text h3 span {
         font-size: 14px;
         color: #646464;
+     }
+
+    .signup-text h3{
+        font-size: 38px;
      }
 }
 @media (max-width: 1200px){
@@ -539,10 +589,53 @@ font-family: 'Poppins', sans-serif;
      .header-area .nav-item:last-child .nav-link{
         padding: 5px 10px;
      }
+
+     /* work css */
+     .single-work-text::after{
+      border-top: inherit;
+      border-right: inherit;
+  
+   }
+   .single-work-two .single-work-text::before{
+      border-top: inherit;
+  
+   }
+   .single-work-three .single-work-text::before{
+      border-top: inherit;
+      border-left: inherit;
+  
+   }
+
+     .signup-text h3{
+        font-size: 32px;
+     }
 }
 
 
 @media (max-width: 991px) {
+
+   /* header css */
+
+   .header-area .nav-item:last-child{
+      margin-left: 0px;
+   }
+
+   .header-area .nav-item:last-child .nav-link{
+      text-align: center;
+   }
+   /* hero css */
+
+   .hero-area{
+      text-align: center;
+   }
+   .hero-text h2{
+      font-size: 40px;
+   }
+   .hero-text{
+      margin-bottom:35px;
+   }
+
+
     .design-image{
        padding-right: 20px;
     }
@@ -551,6 +644,62 @@ font-family: 'Poppins', sans-serif;
        right: 0;
        top: 20px;
        bottom: -20px;
+    }
+    /* service css */
+    .service-area{
+      padding: 70px 0;
+   }
+   /* about css */
+   .about-area{
+      padding: 70px 0;
+   }
+   .about-area .section-headding{
+      text-align: center;
+   }
+   .about-area .section-headding h3{
+      font-size: 35px;
+
+   }
+   .about-area .about-image{
+      margin-bottom: 50px;
+   }
+
+    .service-area .section-headding{
+      text-align: center;
+    }
+
+    .design-image-two{
+      padding-right: 20px;
+   }
+   .design-image-two::after{
+      position: absolute;
+      content: "";
+      height: 100%;
+      width: 100%;
+      left: -20px;
+      top: -20px;
+      z-index: -1;
+      border-radius: 140px 0;
+      border: 2px solid #B0855B;
+  
+     }
+
+
+
+
+    /* work css */
+
+    .all-work{
+      margin-top: 50px;
+   }
+
+    .single-work.single-work-three {
+      padding-top:100px;
+    }
+
+    .single-work-text{
+      width: 500px
+      ;
     }
  }
 

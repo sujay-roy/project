@@ -142,7 +142,7 @@ font-family: 'Poppins', sans-serif;
     border-radius: 140px 0;
  }
 
- /* service-area */
+ /* service-area css */
 
  .service-area{
     padding: 100px 0;
@@ -201,7 +201,7 @@ font-family: 'Poppins', sans-serif;
     padding: 100px 0;
  }
 
- /* sucess area */
+ /* sucess area css */
 
  .success-area{
     padding:100px 0;
@@ -505,18 +505,9 @@ font-family: 'Poppins', sans-serif;
  height: 100px;
 }
 
-/* media query */
+/* responsice area css */
 
 @media (max-width: 1400px) {
-    .design-image{
-        padding-right: 20px;
-     }
-     .design-image::after{
-        left: 20px;
-        right: 0;
-        top: 20px;
-        bottom: -20px;
-     }
 
      /* hero css */
 
@@ -526,6 +517,15 @@ font-family: 'Poppins', sans-serif;
      .section-headding h3{
         font-size: 38px;
      }
+     .design-image{
+      padding-right: 20px;
+   }
+   .design-image::after{
+      left: 20px;
+      right: 0;
+      top: 20px;
+      bottom: -20px;
+   }
 
      /* work css */
      .single-work-text::after{
@@ -728,8 +728,5 @@ font-family: 'Poppins', sans-serif;
     }
  }
 
- @media (max-width: 768px){
-   }
- }
 
  

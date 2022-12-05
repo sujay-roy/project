@@ -616,6 +616,10 @@ font-family: 'Poppins', sans-serif;
 
 @media (max-width: 991px) {
 
+   .container {
+      --bs-gutter-x: 6.5rem;
+   }
+
    /* header css */
 
    .header-area .nav-item:last-child{
@@ -726,7 +730,9 @@ font-family: 'Poppins', sans-serif;
       padding: 20px 0;
       text-align: center;
     }
+
  }
+
 
 
  
